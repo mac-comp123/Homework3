@@ -15,8 +15,6 @@ def runTests():
     """Calls testing functions"""
     test_identifyUFO()
 
-    test_askUFOQuestions()
-
     # test_pigLatin()
 
     test_alphabeticOrder()
@@ -64,16 +62,6 @@ def test_identifyUFO():
     assert res == "It's Superman!"
 
     print("    All assertions passed")
-
-
-# ==========================================================================================
-# Tests for askUFOQuestions
-def test_askUFOQuestions():
-    """Test the identifyUFO function."""
-    print()
-    print("--------------------------------------")
-    print("Testing askUFOQuestions")
-    askUFOQuestions()
 
 
 # ==========================================================================================
