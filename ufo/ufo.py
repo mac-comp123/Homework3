@@ -1,8 +1,9 @@
-def is_number(my_string):
+def is_number(my_string: str) -> bool:
     """
-    Function which takes a string as input and returns True if it can be
-    interpreted as a number, ie, converted into a float (and also therefore
-    an int)
+    Check if a string can be interpreted as a number
+
+    @my_string: a string
+    @return: Ture if the string can be interpreted as a number, False otherwise
     """
     try:
         float(my_string)

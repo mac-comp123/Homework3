@@ -8,7 +8,7 @@ This script unit tests the function in the associated script
 from ufo import *
 
 
-def test_identify_ufo():
+def test_identify_ufo() -> None:
     res = identify_ufo(True, 200, True)
     assert res == "It's a very smart bird."
 
