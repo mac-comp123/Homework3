@@ -1,6 +1,13 @@
 """
 This script unit tests the function in the associated script
 
+To run the tests using the pytest module on PyCharm, follow these steps:
+> go to Pycharm Settings
+> Expand Tools
+> Click Python Integrated Tools
+> Under Testing section: Default test runner, select pytest
+> Click Fix to install the module if prompted
+
 @author: Amin Alhashim (aalhashi@macalester.edu)
 @author: Susan Fox
 """
